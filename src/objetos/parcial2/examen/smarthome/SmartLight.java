@@ -4,13 +4,7 @@ public class SmartLight extends Device {
     public SmartLight(String string) {
         super(string);
     }
-
-    @Override
-    public void turnOn() {
-
-    }
-
-    @Override
+    public void turnOn() {}
     public void turnOff() {
 
     }

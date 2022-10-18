@@ -1,9 +1,6 @@
 package objetos.parcial2.examen;
-
 import objetos.parcial2.examen.smarthome.*;
-
 public class Main {
-
     public static void main(String[] args) {
         SmartHome smartHome = new SmartHome();
 
@@ -36,7 +33,5 @@ public class Main {
         smartHome.processCommand("Enciende focos navidad"); // imprimir: 'Focos Navidad: Encendiendo switch'
         smartHome.processCommand("Enciende clima"); // imprimir: 'Clima Estudio: Encendiendo mini split'
         smartHome.processCommand("Apaga clima"); // imprimir: 'Clima Estudio: Apagando mini split'
-
-
     }
 }

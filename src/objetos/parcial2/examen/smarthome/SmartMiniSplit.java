@@ -5,12 +5,9 @@ public class SmartMiniSplit extends Device {
     public SmartMiniSplit(String string) {
         super(string);
     }
-
-    @Override
     public void turnOn() {
+        super()
     }
-
-    @Override
     public void turnOff() {
 
     }
