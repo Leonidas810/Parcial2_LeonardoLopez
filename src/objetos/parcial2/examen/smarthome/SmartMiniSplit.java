@@ -6,9 +6,9 @@ public class SmartMiniSplit extends Device {
         super(string);
     }
     public void turnOn() {
-        super()
+        System.out.println(getName() + ":"+"Encendiendo: mini split");
     }
     public void turnOff() {
-
+        System.out.println(getName() + ":"+"Apagando: mini split");
     }
 }

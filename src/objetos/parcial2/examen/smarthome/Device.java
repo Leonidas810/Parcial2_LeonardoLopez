@@ -16,21 +16,4 @@ public abstract class Device extends SmartHome{
     public String getName() {
          return name;
     }
-
-    public void configON(String command, String standardCommand) {
-        this.commandOn=command;
-        this.standardCommandOn=standardCommand;
-    }
-
-    public void configOFF(String command, String standardCommand) {
-        this.commandOff=command;
-        this.standardCommandOff=standardCommand;
-    }
-
-    public String getCommandON() {
-        return commandOn;
-    }
-    public String getCommandOFF() {
-        return commandOff;
-    }
 }
